@@ -35,7 +35,7 @@ const Form = () => {
                         <button type="submit" className="btn btn-primary dsmovie-btn">Salvar</button>
                     </div>
                 </form >
-                <Link tp="/">
+                <Link to="/">
                     <button className="btn btn-primary dsmovie-btn mt-3">Cancelar</button>
                 </Link>
             </div >
