@@ -1,8 +1,17 @@
+import axios from "axios";
 import MovieCard from "../../components/MovieCard";
 import Pagination from "../../components/Pagination";
 import "./style.css";
+import { BASE_URL} from "../../utils/requests.ts";
 
 const Listing = () => {
+
+  // FORMA ERRADA
+  axios.get(`${BASE_URL}/movies`)
+    .then(response => {
+      console.log(response.data);
+    });
+
   return (
     <>
       <Pagination />
