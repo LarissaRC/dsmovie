@@ -1,5 +1,5 @@
 import { useParams } from 'react-router-dom';
-import FormCard from '../../components/FormCard';
+import FormCard from 'components/FormCard';
 
 const Form = () => {
 
